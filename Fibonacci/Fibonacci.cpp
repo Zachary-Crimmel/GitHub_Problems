@@ -39,7 +39,7 @@ void tailRecursiveFibonacci(int n){
     }else if(n == 2){
         cout << "0 1";
     }else{
-        cout << "The fibonacci sequence up to " << n << " is: ";
+        cout << "The fibonacci sequence up to " << n << " using tail-recursion is: ";
         cout << "0 1 ";
         tailRecursiveHelper(n - 2, 0, 1);
     }
